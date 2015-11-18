@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="14" failures="0" hostname="ArturTrofimchuk" name="com.example.tests.Launcher" skipped="0" tests="90" time="1489.954" timestamp="2014-01-28T12:17:47">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="env.USERDOMAIN_ROAMINGPROFILE" value="ArturTrofimchuk" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="env.PROMPT" value="$P$G" />
+    <property name="os.name" value="Windows 8" />
+    <property name="env.FP_NO_HOST_CHECK" value="NO" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_45\jre\lib\alt-rt.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\jfxrt.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\ext\zipfs.jar" />
+    <property name="env.COMPUTERNAME" value="ARTURTROFIMCHUK" />
+    <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+    <property name="user.country.format" value="UA" />
+    <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="D:\TestTools\apache-ant-1.9.3-bin\apache-ant-1.9.3" />
+    <property name="java.runtime.version" value="1.7.0_45-b18" />
+    <property name="env.HOMEPATH" value="\Users\Artur Trofimchuk" />
+    <property name="user.name" value="Artur Trofimchuk" />
+    <property name="user.language.format" value="uk" />
+    <property name="user.language" value="ru" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_45\jre\bin" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="ant.project.name" value="DirectoryTests" />
+    <property name="ant.file.DirectoryTests" value="D:\TestTools\Workspace\DirectoryTests\build.xml" />
+    <property name="java.version" value="1.7.0_45" />
+    <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 60 Stepping 3, GenuineIntel" />
+    <property name="user.timezone" value="" />
+    <property name="env.TEMP" value="C:\Users\ARTURT~1\AppData\Local\Temp" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_45\jre\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="env.HOMEDRIVE" value="C:" />
+    <property name="sun.jnu.encoding" value="Cp1251" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="51.0" />
+    <property name="user.country" value="RU" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_45\jre" />
+    <property name="env.PSModulePath" value="C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\" />
+    <property name="env.APPDATA" value="C:\Users\Artur Trofimchuk\AppData\Roaming" />
+    <property name="env.PUBLIC" value="C:\Users\Public" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="env.ComSpec" value="C:\WINDOWS\system32\cmd.exe" />
+    <property name="env.OS" value="Windows_NT" />
+    <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+    <property name="ant.file" value="D:\TestTools\Workspace\DirectoryTests\build.xml" />
+    <property name="os.version" value="6.2" />
+    <property name="env.ProgramW6432" value="C:\Program Files" />
+    <property name="ant.file.type.DirectoryTests" value="file" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="24.45-b08" />
+    <property name="user.variant" value="" />
+    <property name="env.USERPROFILE" value="C:\Users\Artur Trofimchuk" />
+    <property name="ant.library.dir" value="D:\TestTools\apache-ant-1.9.3-bin\apache-ant-1.9.3\lib" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="env.JAVA_HOME" value="C:\Program Files\Java\jdk1.7.0_45\" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="env.TMP" value="C:\Users\ARTURT~1\AppData\Local\Temp" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="user.script" value="" />
+    <property name="user.home" value="C:\Users\Artur Trofimchuk" />
+    <property name="target" value="1.7" />
+    <property name="env.ProgramData" value="C:\ProgramData" />
+    <property name="env.SESSIONNAME" value="Console" />
+    <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="env.NUMBER_OF_PROCESSORS" value="4" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_45\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.7.0_45\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;D:\TestTools\apache-ant-1.9.3-bin\bin\;." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="java.class.path" value="D:\TestTools\Workspace\DirectoryTests\bin;D:\TestTools\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar;D:\TestTools\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar;D:\Артур\selenium-server-standalone-2.39.0.jar;D:\TestTools\apache-ant-1.9.3-bin\apache-ant-1.9.3\lib\ant-launcher.jar;D:\TestTools\apache-ant-1.9.3-bin\apache-ant-1.9.3\lib\ant.jar;D:\TestTools\apache-ant-1.9.3-bin\apache-ant-1.9.3\lib\ant-junit.jar;D:\TestTools\apache-ant-1.9.3-bin\apache-ant-1.9.3\lib\ant-junit4.jar" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.example.tests.Launcher skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\TestTools\Workspace\DirectoryTests\junit\TEST-com.example.tests.Launcher.xml crashfile=D:\TestTools\Workspace\DirectoryTests\junitvmwatcher2650421590525698416.properties propsfile=D:\TestTools\Workspace\DirectoryTests\junit1367041956384042812.properties" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.3 compiled on December 23 2013" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="env.windir" value="C:\WINDOWS" />
+    <property name="env.LOGONSERVER" value="\\ARTURTROFIMCHUK" />
+    <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+    <property name="java.vm.specification.version" value="1.7" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.ProgramFiles" value="C:\Program Files" />
+    <property name="env.ANT_HOME" value="D:\TestTools\apache-ant-1.9.3-bin\apache-ant-1.9.3" />
+    <property name="java.io.tmpdir" value="C:\Users\ARTURT~1\AppData\Local\Temp\" />
+    <property name="env.PROCESSOR_REVISION" value="3c03" />
+    <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="env.SystemRoot" value="C:\WINDOWS" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_45\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+    <property name="user.dir" value="D:\TestTools\Workspace\DirectoryTests" />
+    <property name="env.LOCALAPPDATA" value="C:\Users\Artur Trofimchuk\AppData\Local" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+    <property name="env.Path" value="C:\Program Files\Java\jdk1.7.0_45\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;D:\TestTools\apache-ant-1.9.3-bin\bin\" />
+    <property name="basedir" value="D:\TestTools\Workspace\DirectoryTests" />
+    <property name="ant.java.version" value="1.7" />
+    <property name="ant.core.lib" value="D:\TestTools\apache-ant-1.9.3-bin\apache-ant-1.9.3\lib\ant.jar" />
+    <property name="env.USERNAME" value="Artur Trofimchuk" />
+    <property name="source" value="1.7" />
+    <property name="env.SystemDrive" value="C:" />
+    <property name="file.encoding" value="Cp1251" />
+    <property name="env.USERDOMAIN" value="ArturTrofimchuk" />
+    <property name="java.specification.version" value="1.7" />
+    <property name="ant.project.invoked-targets" value="build,Launcher,junitreport" />
+    <property name="env.PROCESSOR_LEVEL" value="6" />
+  </properties>
+  <testcase classname="com.example.tests.Series.SeriesAdd" name="testSreiesAdd" time="32.677" />
+  <testcase classname="com.example.tests.Series.SeriesEdit" name="testSeriesEdit" time="15.284" />
+  <testcase classname="com.example.tests.Series.SeriesDel" name="SeriesDel" time="13.333" />
+  <testcase classname="com.example.tests.OrganizationType.OrganizationTypeAdd" name="testOrganizationTypeAdd" time="11.958" />
+  <testcase classname="com.example.tests.OrganizationType.OrganizationTypeEdit" name="testOrganizationTypeEdit" time="13.701" />
+  <testcase classname="com.example.tests.OrganizationType.OrganizationTypeDel" name="testOrganizationTypeDel" time="13.805" />
+  <testcase classname="com.example.tests.RetailChain.RetailChainAdd" name="testRetailChainAdd" time="11.609" />
+  <testcase classname="com.example.tests.RetailChain.RetailChainEdit" name="testRetailChainEdit" time="14.034" />
+  <testcase classname="com.example.tests.RetailChain.RetailChainDel" name="testRetailChainDel" time="12.845" />
+  <testcase classname="com.example.tests.Speciality.SpecialityAdd" name="testSpecialityAdd" time="11.599" />
+  <testcase classname="com.example.tests.Speciality.SpecialityEdit" name="testSpecialityEdit" time="13.712" />
+  <testcase classname="com.example.tests.Speciality.SpecialityDel" name="testSpecialityDel" time="12.839" />
+  <testcase classname="com.example.tests.Division.DivisionAdd" name="testDivisionAdd" time="11.468" />
+  <testcase classname="com.example.tests.Division.DivisionEdit" name="testDivisionEdit" time="13.913" />
+  <testcase classname="com.example.tests.Division.DivisionDel" name="testDivisionDel" time="14.076" />
+  <testcase classname="com.example.tests.MaterialType.MaterialTypeAdd" name="testMaterialTypeAdd" time="12.028" />
+  <testcase classname="com.example.tests.MaterialType.MaterialTypeEdit" name="testMaterialTypeEdit" time="13.694" />
+  <testcase classname="com.example.tests.MaterialType.MaterialTypeDel" name="testMaterialTypeDel" time="12.861" />
+  <testcase classname="com.example.tests.Title.TitleAdd" name="testTitleAdd" time="11.306" />
+  <testcase classname="com.example.tests.Title.TitleEdit" name="testTitleEdit" time="13.38" />
+  <testcase classname="com.example.tests.Title.TitleDel" name="testTitleDel" time="12.6" />
+  <testcase classname="com.example.tests.FormOfAddress.FormOfAddressAdd" name="testFormOfAddressAdd" time="11.826" />
+  <testcase classname="com.example.tests.FormOfAddress.FormOfAddressEdit" name="testFormOfAddressEdit" time="13.612" />
+  <testcase classname="com.example.tests.FormOfAddress.FormOfAddressDel" name="testFormOfAddressDel" time="12.79" />
+  <testcase classname="com.example.tests.CategoryOfContact.CategoryOfContactAdd" name="testCategoryOfContactAdd" time="11.756" />
+  <testcase classname="com.example.tests.CategoryOfContact.CategoryOfContactEdit" name="testCategoryOfContactEdit" time="13.253" />
+  <testcase classname="com.example.tests.CategoryOfContact.CategoryOfContactDel" name="testCategoryOfContactDel" time="12.578" />
+  <testcase classname="com.example.tests.User.UserAdd" name="testUserAdd" time="12.911" />
+  <testcase classname="com.example.tests.User.UserEdit" name="testUserEdit" time="41.853">
+    <error message="Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;autotest&quot;}&#xa;Command duration or timeout: 30.03 seconds&#xa;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#xa;Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:11:15&apos;&#xa;System info: host: &apos;ArturTrofimchuk&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_45&apos;&#xa;Session ID: 437fbc87-c906-456f-9027-dea762590ddc&#xa;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#xa;Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=26.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;autotest&quot;}
+Command duration or timeout: 30.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:11:15&apos;
+System info: host: &apos;ArturTrofimchuk&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_45&apos;
+Session ID: 437fbc87-c906-456f-9027-dea762590ddc
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=26.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:356)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:248)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at com.example.tests.User.UserEdit.testUserEdit(UserEdit.java:45)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;autotest&quot;}
+Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:11:15&apos;
+System info: host: &apos;ArturTrofimchuk&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_45&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/ARTURT~1/AppData/Local/Temp/anonymous5855277421186937807webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8860)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/ARTURT~1/AppData/Local/Temp/anonymous5855277421186937807webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:396)
+</error>
+  </testcase>
+  <testcase classname="com.example.tests.User.UserDel" name="testUserDel" time="13.27" />
+  <testcase classname="com.example.tests.Product.ProductAdd" name="testProductAdd" time="10.301" />
+  <testcase classname="com.example.tests.Product.ProductEdit" name="testProductEdit" time="17.394" />
+  <testcase classname="com.example.tests.Product.ProductDel" name="testProductDel" time="12.769" />
+  <testcase classname="com.example.tests.Organization.OrganizationAdd" name="testOrganizationAdd" time="12.578" />
+  <testcase classname="com.example.tests.Temporary.TempContactAdd" name="testTempContactAdd" time="12.341" />
+  <testcase classname="com.example.tests.Organization.OrganizationContactsAdd" name="testOrganizationContactsAdd" time="18.198" />
+  <testcase classname="com.example.tests.Organization.OrganizationEdit" name="testOrganizationEdit" time="14.484" />
+  <testcase classname="com.example.tests.Organization.OrganizationDel" name="testOrganizationDel" time="13.731" />
+  <testcase classname="com.example.tests.Temporary.TempContactDel" name="testTempContactDel" time="13.45" />
+  <testcase classname="com.example.tests.Contact.ContactAdd" name="testContactAdd" time="11.184" />
+  <testcase classname="com.example.tests.Contact.ContactEdit" name="testContactEdit" time="13.272" />
+  <testcase classname="com.example.tests.Contact.ContactDel" name="testContactDel" time="12.561" />
+  <testcase classname="com.example.tests.Temporary.TempContactAdd" name="testTempContactAdd" time="10.611" />
+  <testcase classname="com.example.tests.Temporary.TempOrganizationAdd" name="testOrganizationAdd" time="11.411" />
+  <testcase classname="com.example.tests.Workplaces.WorkplaceAdd" name="testWorkplaceAdd" time="24.375" />
+  <testcase classname="com.example.tests.Workplaces.WorkplaceEdit" name="testWorkplaceEdit" time="21.359" />
+  <testcase classname="com.example.tests.Workplaces.WorkPlaceDel" name="testWorkPlaceDel" time="14.77" />
+  <testcase classname="com.example.tests.Temporary.TempContactDel" name="testTempContactDel" time="12.747" />
+  <testcase classname="com.example.tests.Temporary.TempOrganizationDel" name="testOrganizationDel" time="12.881" />
+  <testcase classname="com.example.tests.CategoryOfOrganization.CategoryOfOrganizationAdd" name="testCategoryOfOrganizationAdd" time="11.081" />
+  <testcase classname="com.example.tests.CategoryOfOrganization.CategoryOfOrganizationEdit" name="testCategoryOfOrganizationEdit" time="41.404">
+    <error message="Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;autotest&quot;}&#xa;Command duration or timeout: 30.08 seconds&#xa;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#xa;Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:11:15&apos;&#xa;System info: host: &apos;ArturTrofimchuk&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_45&apos;&#xa;Session ID: 6dc971f8-faf4-49d0-a932-e424984a9f86&#xa;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#xa;Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=26.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;autotest&quot;}
+Command duration or timeout: 30.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:11:15&apos;
+System info: host: &apos;ArturTrofimchuk&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_45&apos;
+Session ID: 6dc971f8-faf4-49d0-a932-e424984a9f86
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=26.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:356)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:248)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at com.example.tests.CategoryOfOrganization.CategoryOfOrganizationEdit.testCategoryOfOrganizationEdit(CategoryOfOrganizationEdit.java:46)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;autotest&quot;}
+Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:11:15&apos;
+System info: host: &apos;ArturTrofimchuk&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_45&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/ARTURT~1/AppData/Local/Temp/anonymous5109229339731971355webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8860)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/ARTURT~1/AppData/Local/Temp/anonymous5109229339731971355webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:396)
+</error>
+  </testcase>
+  <testcase classname="com.example.tests.CategoryOfOrganization.CategoryOfOrganizationDel" name="testCategoryOfOrganizationDel" time="41.615">
+    <error message="Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;autotest1&quot;}&#xa;Command duration or timeout: 30.09 seconds&#xa;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#xa;Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:11:15&apos;&#xa;System info: host: &apos;ArturTrofimchuk&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_45&apos;&#xa;Session ID: b53a9e08-46e8-4ce5-b1aa-ad89f7e1e9d2&#xa;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#xa;Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=26.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;autotest1&quot;}
+Command duration or timeout: 30.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:11:15&apos;
+System info: host: &apos;ArturTrofimchuk&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_45&apos;
+Session ID: b53a9e08-46e8-4ce5-b1aa-ad89f7e1e9d2
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=26.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:356)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:248)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at com.example.tests.CategoryOfOrganization.CategoryOfOrganizationDel.testCategoryOfOrganizationDel(CategoryOfOrganizationDel.java:47)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;autotest1&quot;}
+Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:11:15&apos;
+System info: host: &apos;ArturTrofimchuk&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_45&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/ARTURT~1/AppData/Local/Temp/anonymous6508872649478405115webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8860)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/ARTURT~1/AppData/Local/Temp/anonymous6508872649478405115webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:396)
+</error>
+  </testcase>
+  <testcase classname="com.example.tests.Activity.ActivityAdd" name="testActivityAdd" time="11.455" />
+  <testcase classname="com.example.tests.Activity.ActivityEdit" name="testActivityEdit" time="13.149" />
+  <testcase classname="com.example.tests.Activity.ActivityDel" name="testActivityDel" time="12.812" />
+  <testcase classname="com.example.tests.MarketingCycle.MarketingCycleAdd" name="testMarketingCycleAdd" time="10.853" />
+  <testcase classname="com.example.tests.Temporary.TempProductAdd" name="testTempProductAdd" time="10.508" />
+  <testcase classname="com.example.tests.MarketingCycle.MarketingCycleClone" name="testMarketingCycleClone" time="14.982" />
+  <testcase classname="com.example.tests.MarketingCycle.MarketingCycleDelClone" name="testMarketingCycleDelClone" time="15.321" />
+  <testcase classname="com.example.tests.MarketingCycle.MarketingCycleProductAssign" name="testMarketingCycleProductAssign" time="25.135" />
+  <testcase classname="com.example.tests.MarketingCycle.MarketingCycleProductScenarioAdd" name="testMarketingCycleProductScenarioAdd" time="15.384" />
+  <testcase classname="com.example.tests.MarketingCycle.MarketingCycleProductScenarioDel" name="testMarketingCycleProductScenarioDel" time="17.132" />
+  <testcase classname="com.example.tests.MarketingCycle.MarketingCycleProductUnassign" name="testMarketingCycleProductUnassign" time="19.728" />
+  <testcase classname="com.example.tests.MarketingCycle.MarketingCycleEdit" name="testMarketingCycleEdit" time="15.099" />
+  <testcase classname="com.example.tests.MarketingCycle.MarketingCycleDel" name="testMarketingCycleDel" time="13.384" />
+  <testcase classname="com.example.tests.Temporary.TempProductDel" name="testTempProductDel" time="12.373" />
+  <testcase classname="com.example.tests.Territory.TerritoryABAdd" name="testTerritoryABAdd" time="13.018" />
+  <testcase classname="com.example.tests.Territory.TerritoryAssigne" name="testTerritoryAssigne" time="47.81">
+    <error message="Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;AutotestB&quot;}&#xa;Command duration or timeout: 31.63 seconds&#xa;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#xa;Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:11:15&apos;&#xa;System info: host: &apos;ArturTrofimchuk&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_45&apos;&#xa;Session ID: 64e80db4-9d08-4210-b018-4d62a906e0fa&#xa;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#xa;Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=26.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;AutotestB&quot;}
+Command duration or timeout: 31.63 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:11:15&apos;
+System info: host: &apos;ArturTrofimchuk&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_45&apos;
+Session ID: 64e80db4-9d08-4210-b018-4d62a906e0fa
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=26.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:356)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:248)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at com.example.tests.Territory.TerritoryAssigne.testTerritoryAssigne(TerritoryAssigne.java:47)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;AutotestB&quot;}
+Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:11:15&apos;
+System info: host: &apos;ArturTrofimchuk&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_45&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/ARTURT~1/AppData/Local/Temp/anonymous572698142513929133webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8860)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/ARTURT~1/AppData/Local/Temp/anonymous572698142513929133webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:396)
+</error>
+  </testcase>
+  <testcase classname="com.example.tests.Territory.TerritoryUnassigne" name="testTerritoryUnassigne" time="40.514">
+    <error message="Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;td &gt; label.input-control.checkbox &gt; span.helper&quot;}&#xa;Command duration or timeout: 30.14 seconds&#xa;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#xa;Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:11:15&apos;&#xa;System info: host: &apos;ArturTrofimchuk&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_45&apos;&#xa;Session ID: 5d41b7fd-dcab-4bbd-8bd0-8ff4aa414db3&#xa;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#xa;Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=26.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;td &gt; label.input-control.checkbox &gt; span.helper&quot;}
+Command duration or timeout: 30.14 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:11:15&apos;
+System info: host: &apos;ArturTrofimchuk&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_45&apos;
+Session ID: 5d41b7fd-dcab-4bbd-8bd0-8ff4aa414db3
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=26.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:396)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:432)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at com.example.tests.Territory.TerritoryUnassigne.testTerritoryUnassigne(TerritoryUnassigne.java:37)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;td &gt; label.input-control.checkbox &gt; span.helper&quot;}
+Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:11:15&apos;
+System info: host: &apos;ArturTrofimchuk&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_45&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/ARTURT~1/AppData/Local/Temp/anonymous9092970997943838119webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8860)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/ARTURT~1/AppData/Local/Temp/anonymous9092970997943838119webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:396)
+</error>
+  </testcase>
+  <testcase classname="com.example.tests.Temporary.TempOrganizationAdd" name="testOrganizationAdd" time="11.685" />
+  <testcase classname="com.example.tests.Territory.TerritoryOrganizationAssigne" name="testTerritoryOrganizationAssigne" time="42.59">
+    <error message="Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;assignButton_Organization&quot;}&#xa;Command duration or timeout: 30.08 seconds&#xa;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#xa;Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:11:15&apos;&#xa;System info: host: &apos;ArturTrofimchuk&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_45&apos;&#xa;Session ID: 4539d909-104f-4a45-bde7-c601daa30063&#xa;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#xa;Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=26.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;assignButton_Organization&quot;}
+Command duration or timeout: 30.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:11:15&apos;
+System info: host: &apos;ArturTrofimchuk&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_45&apos;
+Session ID: 4539d909-104f-4a45-bde7-c601daa30063
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=26.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:348)
+	at org.openqa.selenium.By$ById.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at com.example.tests.Territory.TerritoryOrganizationAssigne.testTerritoryOrganizationAssigne(TerritoryOrganizationAssigne.java:42)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;assignButton_Organization&quot;}
+Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:11:15&apos;
+System info: host: &apos;ArturTrofimchuk&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_45&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/ARTURT~1/AppData/Local/Temp/anonymous6705397525089801575webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8860)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/ARTURT~1/AppData/Local/Temp/anonymous6705397525089801575webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:396)
+</error>
+  </testcase>
+  <testcase classname="com.example.tests.Territory.TerritoryOrganizationUnassigne" name="testTerritoryOrganizationUnassigne" time="43.564">
+    <error message="Element not found in the cache - perhaps the page has changed since it was looked up&#xa;Command duration or timeout: 30.09 seconds&#xa;For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html&#xa;Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:11:15&apos;&#xa;System info: host: &apos;ArturTrofimchuk&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_45&apos;&#xa;Session ID: 87d5a6bf-e2fb-4736-a568-4e0fb09da8dd&#xa;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#xa;Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=26.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]" type="org.openqa.selenium.StaleElementReferenceException">org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 30.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:11:15&apos;
+System info: host: &apos;ArturTrofimchuk&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_45&apos;
+Session ID: 87d5a6bf-e2fb-4736-a568-4e0fb09da8dd
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=26.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.example.tests.Territory.TerritoryOrganizationUnassigne.testTerritoryOrganizationUnassigne(TerritoryOrganizationUnassigne.java:42)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Element not found in the cache - perhaps the page has changed since it was looked up
+Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:11:15&apos;
+System info: host: &apos;ArturTrofimchuk&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_45&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.fxdriver.cache.getElementAt(resource://fxdriver/modules/web_element_cache.js:7584)
+	at &lt;anonymous class&gt;.Utils.getElementAt(file:///C:/Users/ARTURT~1/AppData/Local/Temp/anonymous5907359102138623352webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:7197)
+	at &lt;anonymous class&gt;.fxdriver.preconditions.visible(file:///C:/Users/ARTURT~1/AppData/Local/Temp/anonymous5907359102138623352webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:8177)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/ARTURT~1/AppData/Local/Temp/anonymous5907359102138623352webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10814)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/ARTURT~1/AppData/Local/Temp/anonymous5907359102138623352webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10831)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/ARTURT~1/AppData/Local/Temp/anonymous5907359102138623352webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:396)
+</error>
+  </testcase>
+  <testcase classname="com.example.tests.Temporary.TempOrganizationDel" name="testOrganizationDel" time="13.534" />
+  <testcase classname="com.example.tests.Temporary.TemporaryUserAdd" name="testTemporaryUserAdd" time="11.698" />
+  <testcase classname="com.example.tests.Territory.TerritoryUserAssigne" name="testTerritoryUserAssigne" time="42.605">
+    <error message="Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;assignButton_User&quot;}&#xa;Command duration or timeout: 30.08 seconds&#xa;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#xa;Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:11:15&apos;&#xa;System info: host: &apos;ArturTrofimchuk&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_45&apos;&#xa;Session ID: f58ca8e6-d991-48a4-8d5e-5b15b6d94a1b&#xa;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#xa;Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=26.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;assignButton_User&quot;}
+Command duration or timeout: 30.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:11:15&apos;
+System info: host: &apos;ArturTrofimchuk&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_45&apos;
+Session ID: f58ca8e6-d991-48a4-8d5e-5b15b6d94a1b
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=26.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:348)
+	at org.openqa.selenium.By$ById.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at com.example.tests.Territory.TerritoryUserAssigne.testTerritoryUserAssigne(TerritoryUserAssigne.java:42)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;assignButton_User&quot;}
+Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:11:15&apos;
+System info: host: &apos;ArturTrofimchuk&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_45&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/ARTURT~1/AppData/Local/Temp/anonymous8313951042489074060webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8860)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/ARTURT~1/AppData/Local/Temp/anonymous8313951042489074060webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:396)
+</error>
+  </testcase>
+  <testcase classname="com.example.tests.Territory.TerritoryUserUnassigne" name="testTerritoryOrganizationUnassigne" time="43.395">
+    <error message="Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;input[id^=Checkbox_User_]&quot;}&#xa;Command duration or timeout: 30.03 seconds&#xa;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#xa;Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:11:15&apos;&#xa;System info: host: &apos;ArturTrofimchuk&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_45&apos;&#xa;Session ID: 695f4160-3dff-4b58-8c79-c6551574b3b3&#xa;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#xa;Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=26.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;input[id^=Checkbox_User_]&quot;}
+Command duration or timeout: 30.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:11:15&apos;
+System info: host: &apos;ArturTrofimchuk&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_45&apos;
+Session ID: 695f4160-3dff-4b58-8c79-c6551574b3b3
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=26.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:396)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:432)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at com.example.tests.Territory.TerritoryUserUnassigne.testTerritoryOrganizationUnassigne(TerritoryUserUnassigne.java:42)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;input[id^=Checkbox_User_]&quot;}
+Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:11:15&apos;
+System info: host: &apos;ArturTrofimchuk&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_45&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/ARTURT~1/AppData/Local/Temp/anonymous6546588244341299207webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8860)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/ARTURT~1/AppData/Local/Temp/anonymous6546588244341299207webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:396)
+</error>
+  </testcase>
+  <testcase classname="com.example.tests.Temporary.TemporaryUserDel" name="testUserDel" time="12.984" />
+  <testcase classname="com.example.tests.Territory.TerritoryABDel" name="testTerritoryABDel" time="16.806" />
+  <testcase classname="com.example.tests.Event.EventAdd" name="testEventAdd" time="11.432" />
+  <testcase classname="com.example.tests.Event.EventEdit" name="testEventEdit" time="13.185" />
+  <testcase classname="com.example.tests.Event.EventDel" name="testEventDel" time="12.331" />
+  <testcase classname="com.example.tests.Temporary.TemporaryEventAdd" name="testTemporaryEventAdd" time="10.3" />
+  <testcase classname="com.example.tests.Temporary.TempContactAdd" name="testTempContactAdd" time="11.047" />
+  <testcase classname="com.example.tests.UserEvents.UserEventsAdd" name="testUserEventAdd" time="13.427">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.example.tests.UserEvents.UserEventsAdd.testUserEventAdd(UserEventsAdd.java:48)
+</error>
+  </testcase>
+  <testcase classname="com.example.tests.UserEvents.UserEventContactAssigne" name="testUserEventContactAssigne" time="10.22">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.example.tests.UserEvents.UserEventContactAssigne.testUserEventContactAssigne(UserEventContactAssigne.java:41)
+</error>
+  </testcase>
+  <testcase classname="com.example.tests.UserEvents.UserEventContactUnassigne" name="testEventContactUnassigne" time="10.543">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.example.tests.UserEvents.UserEventContactUnassigne.testEventContactUnassigne(UserEventContactUnassigne.java:41)
+</error>
+  </testcase>
+  <testcase classname="com.example.tests.UserEvents.UserEventsEdit" name="testUserEventsEdit" time="11.363">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.example.tests.UserEvents.UserEventsEdit.testUserEventsEdit(UserEventsEdit.java:49)
+</error>
+  </testcase>
+  <testcase classname="com.example.tests.UserEvents.UserEventsDel" name="testUserEventsDel" time="11.823">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.example.tests.UserEvents.UserEventsDel.testUserEventsDel(UserEventsDel.java:49)
+</error>
+  </testcase>
+  <testcase classname="com.example.tests.Temporary.TemporaryEventDel" name="testTemporaryEventDel" time="13.015" />
+  <testcase classname="com.example.tests.Temporary.TempContactDel" name="testTempContactDel" time="12.312" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

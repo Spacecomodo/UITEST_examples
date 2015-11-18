@@ -1,0 +1,1202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. --><project basedir="." default="build" name="DirectoryTests">
+    <property environment="env"/>
+    <property name="junit.output.dir" value="junit"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.7"/>
+    <property name="source" value="1.7"/>
+    <path id="JUnit 4.libraryclasspath">
+        <pathelement location="../../eclipse/plugins/org.junit_4.11.0.v201303080030/junit.jar"/>
+        <pathelement location="../../eclipse/plugins/org.hamcrest.core_1.3.0.v201303031735.jar"/>
+    </path>
+    <path id="Selenium.userclasspath">
+        <pathelement location="../../../Артур/selenium-server-standalone-2.39.0.jar"/>
+    </path>
+    <path id="DirectoryTests.classpath">
+        <pathelement location="bin"/>
+        <path refid="JUnit 4.libraryclasspath"/>
+        <path refid="Selenium.userclasspath"/>
+    </path>
+    <path id="run.ActivityAdd.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.ActivityDel.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.ActivityEdit.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.CategoryOfContactAdd.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.CategoryOfContactDel.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.CategoryOfContactEdit.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.CategoryOfOrganizationAdd.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.CategoryOfOrganizationDel.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.CategoryOfOrganizationEdit.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.com.example.tests.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.ContactAdd.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.ContactDel.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.ContactEdit.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.DirectoryTests.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.DivisionAdd.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.DivisionDel.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.DivisionEdit.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.FormOfAddressAdd.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.FormOfAddressDel.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.FormOfAddressEdit.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.Launcher.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.LauncherTemp.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.MarketingCycleAdd.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.MarketingCycleClone.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.MarketingCycleDel.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.MarketingCycleDelClone.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.MarketingCycleEdit.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.MarketingCycleProductAssign.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.MarketingCycleProductUnassign.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.MaterialTypeAdd.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.MaterialTypeDel.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.MaterialTypeEdit.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.OrganizationAdd.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.OrganizationContactsAdd.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.OrganizationDel.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.OrganizationEdit.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.OrganizationTypeAdd.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.OrganizationTypeDel.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.OrganizationTypeEdit.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.ProductAdd.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.ProductDel.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.ProductEdit.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.RetailChainAdd.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.RetailChainDel.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.RetailChainEdit.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.SeriesAdd.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.SeriesDel.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.SeriesEdit.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.SpecialityAdd.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.SpecialityDel.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.SpecialityEdit.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.src.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.SreiesAdd.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.TempContactAdd.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.TempContactDel.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.TempOrganizationAdd.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.TempProductAdd.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.TitleAdd.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.TitleDel.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.TitleEdit.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.UserAdd.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.UserDel.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.UserEdit.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.WorkplaceAdd.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.WorkPlaceDel.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.WorkplaceEdit.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <path id="run.com.example.tests.Product.bootclasspath">
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
+    <target name="init">
+        <mkdir dir="bin"/>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="src">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="bin"/>
+    </target>
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src"/>
+            <classpath refid="DirectoryTests.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+    <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
+        <copy todir="${ant.library.dir}">
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </copy>
+        <unzip dest="${ant.library.dir}">
+            <patternset includes="jdtCompilerAdapter.jar"/>
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </unzip>
+    </target>
+    <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+        <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+        <antcall target="build"/>
+    </target>
+    <target name="ActivityAdd">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.Activity.ActivityAdd" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.ActivityAdd.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="ActivityDel">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.Activity.ActivityDel" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.ActivityDel.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="ActivityEdit">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.Activity.ActivityEdit" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.ActivityEdit.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="CategoryOfContactAdd">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.CategoryOfContact.CategoryOfContactAdd" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.CategoryOfContactAdd.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="CategoryOfContactDel">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.CategoryOfContact.CategoryOfContactDel" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.CategoryOfContactDel.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="CategoryOfContactEdit">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.CategoryOfContact.CategoryOfContactEdit" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.CategoryOfContactEdit.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="CategoryOfOrganizationAdd">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.CategoryOfOrganization.CategoryOfOrganizationAdd" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.CategoryOfOrganizationAdd.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="CategoryOfOrganizationDel">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.CategoryOfOrganization.CategoryOfOrganizationDel" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.CategoryOfOrganizationDel.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="CategoryOfOrganizationEdit">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.CategoryOfOrganization.CategoryOfOrganizationEdit" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.CategoryOfOrganizationEdit.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="com.example.tests">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.Launcher" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.LauncherTemp" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.com.example.tests.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="ContactAdd">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.Contact.ContactAdd" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.ContactAdd.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="ContactDel">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.Contact.ContactDel" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.ContactDel.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="ContactEdit">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.Contact.ContactEdit" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.ContactEdit.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="DirectoryTests">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.Activity.ActivityAdd" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Activity.ActivityDel" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Activity.ActivityEdit" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.CategoryOfContact.CategoryOfContactAdd" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.CategoryOfContact.CategoryOfContactDel" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.CategoryOfContact.CategoryOfContactEdit" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.CategoryOfOrganization.CategoryOfOrganizationAdd" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.CategoryOfOrganization.CategoryOfOrganizationDel" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.CategoryOfOrganization.CategoryOfOrganizationEdit" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Contact.ContactAdd" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Contact.ContactDel" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Contact.ContactEdit" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Division.DivisionAdd" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Division.DivisionDel" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Division.DivisionEdit" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.FormOfAddress.FormOfAddressAdd" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.FormOfAddress.FormOfAddressDel" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.FormOfAddress.FormOfAddressEdit" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Launcher" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.LauncherTemp" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.MarketingCycle.MarketingCycleAdd" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.MarketingCycle.MarketingCycleClone" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.MarketingCycle.MarketingCycleDel" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.MarketingCycle.MarketingCycleDelClone" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.MarketingCycle.MarketingCycleEdit" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.MarketingCycle.MarketingCycleProductAssign" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.MarketingCycle.MarketingCycleProductUnassign" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.MaterialType.MaterialTypeAdd" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.MaterialType.MaterialTypeDel" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.MaterialType.MaterialTypeEdit" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Organization.OrganizationAdd" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Organization.OrganizationContactsAdd" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Organization.OrganizationDel" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Organization.OrganizationEdit" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.OrganizationType.OrganizationTypeAdd" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.OrganizationType.OrganizationTypeDel" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.OrganizationType.OrganizationTypeEdit" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Product.ProductAdd" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Product.ProductDel" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Product.ProductEdit" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.RetailChain.RetailChainAdd" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.RetailChain.RetailChainDel" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.RetailChain.RetailChainEdit" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Series.SeriesAdd" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Series.SeriesDel" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Series.SeriesEdit" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Speciality.SpecialityAdd" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Speciality.SpecialityDel" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Speciality.SpecialityEdit" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Temporary.TempContactAdd" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Temporary.TempContactDel" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Temporary.TempOrganizationAdd" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Temporary.TempOrganizationDel" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Temporary.TempProductAdd" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Temporary.TempProductDel" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Title.TitleAdd" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Title.TitleDel" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Title.TitleEdit" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.User.UserAdd" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.User.UserDel" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.User.UserEdit" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Workplaces.WorkPlaceDel" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Workplaces.WorkplaceAdd" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Workplaces.WorkplaceEdit" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.DirectoryTests.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="DivisionAdd">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.Division.DivisionAdd" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.DivisionAdd.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="DivisionDel">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.Division.DivisionDel" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.DivisionDel.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="DivisionEdit">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.Division.DivisionEdit" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.DivisionEdit.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="FormOfAddressAdd">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.FormOfAddress.FormOfAddressAdd" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.FormOfAddressAdd.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="FormOfAddressDel">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.FormOfAddress.FormOfAddressDel" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.FormOfAddressDel.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="FormOfAddressEdit">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.FormOfAddress.FormOfAddressEdit" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.FormOfAddressEdit.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="Launcher">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.Launcher" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.Launcher.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="LauncherTemp">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.LauncherTemp" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.LauncherTemp.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="MarketingCycleAdd">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.MarketingCycle.MarketingCycleAdd" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.MarketingCycleAdd.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="MarketingCycleClone">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.MarketingCycle.MarketingCycleClone" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.MarketingCycleClone.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="MarketingCycleDel">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.MarketingCycle.MarketingCycleDel" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.MarketingCycleDel.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="MarketingCycleDelClone">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.MarketingCycle.MarketingCycleDelClone" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.MarketingCycleDelClone.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="MarketingCycleEdit">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.MarketingCycle.MarketingCycleEdit" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.MarketingCycleEdit.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="MarketingCycleProductAssign">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.MarketingCycle.MarketingCycleProductAssign" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.MarketingCycleProductAssign.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="MarketingCycleProductUnassign">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.MarketingCycle.MarketingCycleProductUnassign" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.MarketingCycleProductUnassign.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="MaterialTypeAdd">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.MaterialType.MaterialTypeAdd" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.MaterialTypeAdd.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="MaterialTypeDel">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.MaterialType.MaterialTypeDel" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.MaterialTypeDel.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="MaterialTypeEdit">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.MaterialType.MaterialTypeEdit" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.MaterialTypeEdit.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="OrganizationAdd">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.Organization.OrganizationAdd" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.OrganizationAdd.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="OrganizationContactsAdd">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.Organization.OrganizationContactsAdd" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.OrganizationContactsAdd.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="OrganizationDel">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.Organization.OrganizationDel" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.OrganizationDel.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="OrganizationEdit">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.Organization.OrganizationEdit" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.OrganizationEdit.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="OrganizationTypeAdd">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.OrganizationType.OrganizationTypeAdd" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.OrganizationTypeAdd.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="OrganizationTypeDel">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.OrganizationType.OrganizationTypeDel" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.OrganizationTypeDel.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="OrganizationTypeEdit">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.OrganizationType.OrganizationTypeEdit" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.OrganizationTypeEdit.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="ProductAdd">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.Product.ProductAdd" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.ProductAdd.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="ProductDel">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.Product.ProductDel" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.ProductDel.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="ProductEdit">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.Product.ProductEdit" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.ProductEdit.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="RetailChainAdd">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.RetailChain.RetailChainAdd" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.RetailChainAdd.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="RetailChainDel">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.RetailChain.RetailChainDel" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.RetailChainDel.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="RetailChainEdit">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.RetailChain.RetailChainEdit" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.RetailChainEdit.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="SeriesAdd">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.Series.SeriesAdd" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.SeriesAdd.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="SeriesDel">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.Series.SeriesDel" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.SeriesDel.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="SeriesEdit">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.Series.SeriesEdit" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.SeriesEdit.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="SpecialityAdd">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.Speciality.SpecialityAdd" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.SpecialityAdd.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="SpecialityDel">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.Speciality.SpecialityDel" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.SpecialityDel.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="SpecialityEdit">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.Speciality.SpecialityEdit" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.SpecialityEdit.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="src">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.Activity.ActivityAdd" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Activity.ActivityDel" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Activity.ActivityEdit" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.CategoryOfContact.CategoryOfContactAdd" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.CategoryOfContact.CategoryOfContactDel" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.CategoryOfContact.CategoryOfContactEdit" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.CategoryOfOrganization.CategoryOfOrganizationAdd" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.CategoryOfOrganization.CategoryOfOrganizationDel" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.CategoryOfOrganization.CategoryOfOrganizationEdit" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Contact.ContactAdd" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Contact.ContactDel" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Contact.ContactEdit" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Division.DivisionAdd" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Division.DivisionDel" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Division.DivisionEdit" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.FormOfAddress.FormOfAddressAdd" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.FormOfAddress.FormOfAddressDel" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.FormOfAddress.FormOfAddressEdit" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Launcher" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.LauncherTemp" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.MarketingCycle.MarketingCycleAdd" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.MarketingCycle.MarketingCycleClone" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.MarketingCycle.MarketingCycleDel" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.MarketingCycle.MarketingCycleDelClone" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.MarketingCycle.MarketingCycleEdit" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.MarketingCycle.MarketingCycleProductAssign" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.MarketingCycle.MarketingCycleProductUnassign" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.MaterialType.MaterialTypeAdd" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.MaterialType.MaterialTypeDel" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.MaterialType.MaterialTypeEdit" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Organization.OrganizationAdd" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Organization.OrganizationContactsAdd" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Organization.OrganizationDel" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Organization.OrganizationEdit" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.OrganizationType.OrganizationTypeAdd" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.OrganizationType.OrganizationTypeDel" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.OrganizationType.OrganizationTypeEdit" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Product.ProductAdd" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Product.ProductDel" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Product.ProductEdit" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.RetailChain.RetailChainAdd" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.RetailChain.RetailChainDel" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.RetailChain.RetailChainEdit" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Series.SeriesAdd" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Series.SeriesDel" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Series.SeriesEdit" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Speciality.SpecialityAdd" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Speciality.SpecialityDel" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Speciality.SpecialityEdit" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Temporary.TempContactAdd" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Temporary.TempContactDel" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Temporary.TempOrganizationAdd" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Temporary.TempOrganizationDel" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Temporary.TempProductAdd" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Temporary.TempProductDel" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Title.TitleAdd" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Title.TitleDel" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Title.TitleEdit" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.User.UserAdd" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.User.UserDel" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.User.UserEdit" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Workplaces.WorkPlaceDel" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Workplaces.WorkplaceAdd" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Workplaces.WorkplaceEdit" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.src.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="SreiesAdd">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="SreiesAdd" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.SreiesAdd.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="TempContactAdd">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.Temporary.TempContactAdd" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.TempContactAdd.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="TempContactDel">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.Temporary.TempContactDel" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.TempContactDel.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="TempOrganizationAdd">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.Temporary.TempOrganizationAdd" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.TempOrganizationAdd.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="TempProductAdd">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.Temporary.TempProductAdd" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.TempProductAdd.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="TitleAdd">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.Title.TitleAdd" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.TitleAdd.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="TitleDel">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.Title.TitleDel" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.TitleDel.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="TitleEdit">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.Title.TitleEdit" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.TitleEdit.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="UserAdd">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.User.UserAdd" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.UserAdd.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="UserDel">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.User.UserDel" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.UserDel.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="UserEdit">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.User.UserEdit" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.UserEdit.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="WorkplaceAdd">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.Workplaces.WorkplaceAdd" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.WorkplaceAdd.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="WorkPlaceDel">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.Workplaces.WorkPlaceDel" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.WorkPlaceDel.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="WorkplaceEdit">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.Workplaces.WorkplaceEdit" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.WorkplaceEdit.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="com.example.tests.Product">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.example.tests.Product.ProductAdd" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Product.ProductDel" todir="${junit.output.dir}"/>
+            <test name="com.example.tests.Product.ProductEdit" todir="${junit.output.dir}"/>
+            <classpath refid="DirectoryTests.classpath"/>
+            <bootclasspath>
+                <path refid="run.com.example.tests.Product.bootclasspath"/>
+            </bootclasspath>
+        </junit>
+    </target>
+    <target name="junitreport">
+        <junitreport todir="${junit.output.dir}">
+            <fileset dir="${junit.output.dir}">
+                <include name="TEST-*.xml"/>
+            </fileset>
+            <report format="frames" todir="${junit.output.dir}"/>
+        </junitreport>
+    </target>
+</project>
